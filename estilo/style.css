@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(../fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: rgba(5, 153, 91, 0.418);
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin: auto;
+    font-size: 2.5em;
+}
+
+header > p{
+    text-align: center;
+    color: white;
+}
+
+header{
+    height: 10%;
+    width: 100%;
+    margin: auto;
+    background-image: linear-gradient(to top, rgb(3, 77, 3), rgb(108, 216, 132));
+}
+
+#menu{
+    height: 23px;
+    margin-top: 5%;
+}
+
+#menu a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#menu a:hover{
+    background-color: rgba(112, 170, 112, 0.548);
+    color: black;
+}
+
+main{
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    margin: auto;
+    text-indent: 50px;
+    text-align: justify;
+    font-weight: bold;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+}
+
+#imagem1{
+    width: 95%;
+    margin: auto;
+}
+
+#imagem1 img{
+    width: 85%;
+    height: 400px;
+}
+
+#imagem2{
+    width: 95%;
+    margin: auto;
+}
+
+#imagem2 img{
+    width: 85%;
+    height: 300px;
+}
+
+#imagem3{
+    width: 90%;
+    margin: auto;
+}
+
+#imagem3 img{
+    width: 70%;
+    height: 250px;
+}
+
+h2{
+    font-family: 'idroid';
+    font-size: 1.7em;
+    color: green;
+}
+
+h3{
+    font-family: 'idroid';
+    font-size: 1.2em;
+    color: green;
+    background-image: linear-gradient(to right, rgb(171, 206, 171), rgba(227, 240, 227, 0.671));
+}
+
+footer{
+    text-align: center;
+    background-color: green;
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+aside{
+    background-color: rgb(161, 228, 189);
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#aprender{
+    background-color: green;
+    color: white;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+ul li{
+    text-decoration: underline;
+}
+
+main a{
+    background-color: rgb(143, 230, 143);
+    color: green;
+    text-decoration: none;
+}
